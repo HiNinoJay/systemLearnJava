@@ -16,7 +16,17 @@
         <module name="java集合" />
         <module name="消息队列" />
         <module name="java并发" />
+        <module name="relearnspringboot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="relearnspringboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="relearnspringboot" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+    </option>
   </component>
 </project>
