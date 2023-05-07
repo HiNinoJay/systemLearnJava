@@ -1,6 +1,6 @@
-package top.nino.bean.impl;
+package top.nino.IoC启动.bean.impl;
 
-import top.nino.bean.MessageService;
+import top.nino.IoC启动.bean.MessageService;
 
 /**
  * @author zengzhongjie

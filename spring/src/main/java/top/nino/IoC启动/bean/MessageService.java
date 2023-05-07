@@ -1,4 +1,4 @@
-package top.nino.bean;
+package top.nino.IoC启动.bean;
 
 /**
  * @author zengzhongjie

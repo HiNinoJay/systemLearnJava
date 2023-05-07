@@ -3,5 +3,41 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
 
-    <bean id="messageService" class="top.nino.bean.impl.MessageServiceImpl"/>
+
+<!--    IoC启动包含有的bean-->
+<!--    <bean id="messageService" class="top.nino.IoC启动.bean.impl.MessageServiceImpl"/>-->
+
+    <bean id="myBeanPostProcessor" class="top.nino.IoC启动.MyBeanPostProcessor"/>
+    <bean name="personBean" class="top.nino.IoC启动.pojo.PersonBean"
+          init-method="init" destroy-method="destroyMethod">
+        <property name="no" value="80669865"/>
+        <property name="name" value="张铁刚"/>
+    </bean>
+
+<!--    -->
+
+<!--    依赖注入的方法含有的bean-->
+<!--    构造器注入-->
+    <bean id="CatDogImpl" class="top.nino.依赖注入的方法.构造器注入.CatDaoImpl">
+        <constructor-arg value="message"/>
+    </bean>
+<!--    属性注入-->
+    <bean id="id" class="top.nino.依赖注入的方法.属性注入.Id">
+        <property name="id" value="123"/>
+    </bean>
+<!--    静态工厂注入-->
+    <bean name="staticFactoryDao" class="top.nino.依赖注入的方法.工厂方法注入.静态工厂注入.DaoFactory"
+          factory-method="getStaticFactoryDaoImpl">
+    </bean>
+    <bean name="staticFactorySpringAction" class="top.nino.依赖注入的方法.工厂方法注入.静态工厂注入.SpringAction">
+        <property name="staticFactoryDao" ref="staticFactoryDao" />
+    </bean>
+
+<!--   非静态工厂注入 -->
+    <bean name="daoFactory" class="top.nino.依赖注入的方法.工厂方法注入.非静态工厂注入.DaoFactory"/>
+    <bean name="factoryDao" factory-bean="daoFactory" factory-method="getFactoryDaoImpl"/>
+    <bean name="NonStaticFactorySpringAction" class="top.nino.依赖注入的方法.工厂方法注入.非静态工厂注入.SpringAction">
+        <property name="factoryDao" ref="factoryDao"/>
+    </bean>
+
 </beans>

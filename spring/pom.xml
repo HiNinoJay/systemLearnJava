@@ -18,6 +18,10 @@
             <artifactId>spring-context</artifactId>
             <version>4.3.11.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
