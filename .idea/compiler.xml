@@ -11,6 +11,7 @@
         <module name="mybatis" />
         <module name="jvm" />
         <module name="java基础" />
+        <module name="springboot" />
         <module name="spring" />
         <module name="java集合" />
         <module name="消息队列" />

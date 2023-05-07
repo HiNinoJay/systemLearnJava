@@ -19,6 +19,7 @@
         <module>mybatis</module>
         <module>redis</module>
         <module>消息队列</module>
+        <module>springboot</module>
     </modules>
 
     <dependencyManagement>
