@@ -33,6 +33,7 @@ public class ArrayListLearnTest extends TestCase {
             fileOutputStream = new FileOutputStream("testArraylistSerializable.txt");
             outputStream = new ObjectOutputStream(fileOutputStream);
             outputStream.writeObject(arrayList);
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -57,6 +58,7 @@ public class ArrayListLearnTest extends TestCase {
             fileInputStream = new FileInputStream("testArraylistSerializable.txt");
             objectInputStream = new ObjectInputStream(fileInputStream);
             arrayList = (ArrayList) objectInputStream.readObject();
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -69,7 +71,6 @@ public class ArrayListLearnTest extends TestCase {
         }
         System.out.println("反序列化ArrayList结果:");
         PrintArrayList.printInteger(arrayList);
-
     }
 
 }

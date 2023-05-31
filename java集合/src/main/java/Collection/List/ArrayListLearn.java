@@ -15,7 +15,11 @@ public class ArrayListLearn extends ArrayList {
      */
     private static ArrayList arrayList = new ArrayList();
 
-    public void testArraylistSerializable() {
+    public void testArraylistSerializableOut() {
+
+    }
+
+    public void testArraylistSerializableIn() {
 
     }
 
