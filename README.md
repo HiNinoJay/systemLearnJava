@@ -7,21 +7,21 @@
 
 
 ### java语言
- - [java基础](https://github.com/HiNinoJay/systemLearnJava/tree/main/java基础/src/main/java)
- - [java并发](https://github.com/HiNinoJay/systemLearnJava/tree/main/java并发/src/main/java)
- - [java集合](https://github.com/HiNinoJay/systemLearnJava/tree/main/java集合/src/main/java)
- - [jvm](https://github.com/HiNinoJay/systemLearnJava/tree/main/jvm/src/main/java)
+ - [java基础](https://github.com/HiNinoJay/systemLearnJava/tree/main/java基础/src/main/java)...
+ - [java并发](https://github.com/HiNinoJay/systemLearnJava/tree/main/java并发/src/main/java)...
+ - [java集合](https://github.com/HiNinoJay/systemLearnJava/tree/main/java集合/src/main/java)...
+ - [jvm](https://github.com/HiNinoJay/systemLearnJava/tree/main/jvm/src/main/java)...
  
  
 ### 框架
- - [spring](https://github.com/HiNinoJay/systemLearnJava/tree/main/spring/src/main/java)
- - [springboot](https://github.com/HiNinoJay/systemLearnJava/tree/main/springboot/src/main/java)
- - [mybatis](https://github.com/HiNinoJay/systemLearnJava/tree/main/mybatis/src/main/java)
+ - [spring](https://github.com/HiNinoJay/systemLearnJava/tree/main/spring/src/main/java)...
+ - [springboot](https://github.com/HiNinoJay/systemLearnJava/tree/main/springboot/src/main/java)...
+ - [mybatis](https://github.com/HiNinoJay/systemLearnJava/tree/main/mybatis/src/main/java)...
  
 
 ### 数据库和中间件
- - [redis](https://github.com/HiNinoJay/systemLearnJava/tree/main/redis/src/main/java)
- - [消息队列](https://github.com/HiNinoJay/systemLearnJava/tree/main/消息队列/src/main/java)
+ - [redis](https://github.com/HiNinoJay/systemLearnJava/tree/main/redis/src/main/java)...
+ - [消息队列](https://github.com/HiNinoJay/systemLearnJava/tree/main/消息队列/src/main/java)...
  
 
 ### 其他
