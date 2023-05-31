@@ -20,6 +20,7 @@
         <module>redis</module>
         <module>消息队列</module>
         <module>springboot</module>
+        <module>ninotool</module>
     </modules>
 
     <dependencyManagement>

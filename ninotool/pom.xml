@@ -9,22 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java集合</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>com.nino</groupId>
-            <artifactId>ninotool</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
+    <artifactId>ninotool</artifactId>
 
 
 </project>
