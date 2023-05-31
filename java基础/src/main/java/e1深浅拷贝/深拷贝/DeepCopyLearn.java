@@ -66,6 +66,7 @@ public class DeepCopyLearn {
             e.printStackTrace();
         }
 
+
         System.out.println("两个人是否相等:" + (number1 == number2));
         System.out.println("两个人的基本数据类型钱是否相等:" + (number1.money == number2.money));
         System.out.println("两个人的引用类型狗是否相等:" + (number1.dog == number2.dog));
