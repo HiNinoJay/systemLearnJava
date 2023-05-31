@@ -14,16 +14,16 @@
  
  
 ### 框架
- - spring
- - springboot
- - mybatis
+ - [spring](https://github.com/HiNinoJay/systemLearnJava/tree/main/spring/src/main/java)
+ - [springboot](https://github.com/HiNinoJay/systemLearnJava/tree/main/springboot/src/main/java)
+ - [mybatis](https://github.com/HiNinoJay/systemLearnJava/tree/main/mybatis/src/main/java)
  
 
 ### 数据库和中间件
- - redis
- - 消息队列
+ - [redis](https://github.com/HiNinoJay/systemLearnJava/tree/main/redis/src/main/java)
+ - [消息队列](https://github.com/HiNinoJay/systemLearnJava/tree/main/消息队列/src/main/java)
  
 
 ### 其他
- - ninotool
+ - [ninotool](https://github.com/HiNinoJay/systemLearnJava/tree/main/ninotool/src/main/java)
 
