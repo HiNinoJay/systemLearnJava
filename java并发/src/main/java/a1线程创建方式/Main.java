@@ -1,4 +1,4 @@
-package 线程创建方式;
+package a1线程创建方式;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
