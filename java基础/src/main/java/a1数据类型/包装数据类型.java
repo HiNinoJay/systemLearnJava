@@ -30,6 +30,17 @@ public class 包装数据类型 {
 
         // 自动拆箱
         int n = i;
+
+
+        Integer a = 127;
+        Integer b = 127;
+        Integer b1 = new Integer(127);
+        System.out.println(a == b); //true 因为自动装箱用到了 缓存
+        System.out.println(b==b1);  //false new了对象，所以没有用到缓存
+
+        Integer c = 128;
+        Integer d = 128;
+        System.out.println(c == d);  //false 超过了缓存的区间区间，所以没有用到缓存
     }
 
 
