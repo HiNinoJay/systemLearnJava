@@ -22,6 +22,7 @@
         <module>springboot</module>
         <module>ninotool</module>
         <module>apollo</module>
+        <module>springcloud</module>
     </modules>
 
     <dependencyManagement>
