@@ -21,6 +21,7 @@
         <module>消息队列</module>
         <module>springboot</module>
         <module>ninotool</module>
+        <module>apollo</module>
     </modules>
 
     <dependencyManagement>
